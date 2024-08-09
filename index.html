@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM to Miles Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter-box">
+        <h1>Kilometers to Miles Converter</h1>
+        <div class="input-group">
+            <label for="data">KM</label>
+            <input type="number" id="data" step="0.01" placeholder="Enter kilometers">
+            <button onclick="convert()">Convert</button>
+        </div>
+        <div class="result-group">
+            <h4>Miles</h4>
+            <input type="number" id="result" readonly>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
